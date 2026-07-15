@@ -1,0 +1,21 @@
+# Secrets — never bake the real key into the image
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Local database and logs — these live on Docker named volumes at runtime,
+# not baked into the image layer.
+db/bookings.db
+logs/
+
+# Dev/test artifacts that don't belong in the image
+tests/
+scripts/
+*.md
+.gitignore
+.dockerignore

@@ -1,0 +1,22 @@
+{
+  "restaurant_name": "La Bella Vista",
+  "service_hours": {
+    "lunch": {"start": "12:00", "end": "15:30"},
+    "dinner": {"start": "18:00", "end": "23:00"}
+  },
+  "slot_length_minutes": 90,
+  "tables": [
+    {"table_id": 1, "capacity": 2, "location": "indoor", "table_type": "standard", "accessible": true},
+    {"table_id": 2, "capacity": 2, "location": "indoor", "table_type": "standard", "accessible": true},
+    {"table_id": 3, "capacity": 4, "location": "indoor", "table_type": "standard", "accessible": true},
+    {"table_id": 4, "capacity": 4, "location": "indoor", "table_type": "booth", "accessible": false},
+    {"table_id": 5, "capacity": 4, "location": "outdoor", "table_type": "standard", "accessible": true},
+    {"table_id": 6, "capacity": 6, "location": "indoor", "table_type": "standard", "accessible": true},
+    {"table_id": 7, "capacity": 6, "location": "outdoor", "table_type": "standard", "accessible": true},
+    {"table_id": 8, "capacity": 8, "location": "indoor", "table_type": "private_room", "accessible": true},
+    {"table_id": 9, "capacity": 2, "location": "outdoor", "table_type": "standard", "accessible": false},
+    {"table_id": 10, "capacity": 6, "location": "terrace", "table_type": "standard", "accessible": true},
+    {"table_id": 11, "capacity": 4, "location": "terrace", "table_type": "standard", "accessible": true},
+    {"table_id": 12, "capacity": 10, "location": "indoor", "table_type": "private_room", "accessible": true}
+  ]
+}

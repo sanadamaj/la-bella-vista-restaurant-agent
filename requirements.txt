@@ -1,0 +1,12 @@
+# Core agent dependencies
+langgraph>=0.2.0
+anthropic>=0.40.0
+python-dotenv>=1.0.0
+
+# Web interface
+# Pinned (not >=): Gradio 6.x made a breaking change to gr.Chatbot's
+# messages-format validation that this app's code isn't compatible with.
+# 5.9.1-5.15.x also have their own bug in API schema generation
+# ("TypeError: argument of type 'bool' is not iterable" on launch) —
+# 5.50.0 is the latest 5.x release and has neither issue.
+gradio==5.50.0

@@ -1,0 +1,248 @@
+{
+  "restaurant_name": "La Bella Vista",
+  "cuisine": "Lebanese-Italian Fusion",
+  "currency": "USD",
+  "last_updated": "2026-06-01",
+  "categories": [
+    {
+      "category_id": "mezze",
+      "category_name": "Mezze & Starters",
+      "items": [
+        {
+          "item_id": "M01",
+          "name": "Hummus Trio",
+          "description": "Classic, roasted red pepper, and beet hummus served with toasted pita.",
+          "price": 9.50,
+          "allergens": ["sesame", "gluten"],
+          "dietary": ["vegetarian", "vegan"],
+          "spice_level": 0,
+          "available": true
+        },
+        {
+          "item_id": "M02",
+          "name": "Fattoush Caprese",
+          "description": "Lebanese fattoush salad with buffalo mozzarella, cherry tomatoes, and sumac vinaigrette.",
+          "price": 11.00,
+          "allergens": ["dairy", "gluten"],
+          "dietary": ["vegetarian"],
+          "spice_level": 0,
+          "available": true
+        },
+        {
+          "item_id": "M03",
+          "name": "Crispy Kibbeh Arancini",
+          "description": "Pan-fried kibbeh shells filled with risotto and pine nuts, served with tahini aioli.",
+          "price": 12.50,
+          "allergens": ["gluten", "sesame", "tree_nuts"],
+          "dietary": [],
+          "spice_level": 1,
+          "available": true
+        },
+        {
+          "item_id": "M04",
+          "name": "Burrata Muhammara",
+          "description": "Creamy burrata over walnut-pepper muhammara with olive oil and pomegranate molasses.",
+          "price": 13.00,
+          "allergens": ["dairy", "tree_nuts"],
+          "dietary": ["vegetarian"],
+          "spice_level": 1,
+          "available": true
+        },
+        {
+          "item_id": "M05",
+          "name": "Garlic Shrimp Sambousek",
+          "description": "Fried pastry pockets filled with garlic butter shrimp.",
+          "price": 13.50,
+          "allergens": ["shellfish", "gluten", "dairy"],
+          "dietary": [],
+          "spice_level": 1,
+          "available": false
+        }
+      ]
+    },
+    {
+      "category_id": "mains",
+      "category_name": "Main Courses",
+      "items": [
+        {
+          "item_id": "N01",
+          "name": "Osso Buco Shawarma",
+          "description": "Slow-braised lamb shank spiced like shawarma, served with saffron risotto.",
+          "price": 28.00,
+          "allergens": ["dairy"],
+          "dietary": [],
+          "spice_level": 1,
+          "available": true
+        },
+        {
+          "item_id": "N02",
+          "name": "Chicken Taouk Saltimbocca",
+          "description": "Grilled chicken taouk wrapped in prosciutto and sage, finished with garlic toum.",
+          "price": 22.00,
+          "allergens": ["dairy", "sesame"],
+          "dietary": [],
+          "spice_level": 1,
+          "available": true
+        },
+        {
+          "item_id": "N03",
+          "name": "Seafood Sayadieh Risotto",
+          "description": "Saffron risotto with sea bass, shrimp, and caramelized onion, inspired by sayadieh rice.",
+          "price": 26.50,
+          "allergens": ["shellfish", "fish", "dairy"],
+          "dietary": [],
+          "spice_level": 0,
+          "available": true
+        },
+        {
+          "item_id": "N04",
+          "name": "Eggplant Parmigiana Maqlouba",
+          "description": "Layered eggplant, tomato, and mozzarella baked maqlouba-style with spiced rice.",
+          "price": 19.00,
+          "allergens": ["dairy"],
+          "dietary": ["vegetarian"],
+          "spice_level": 0,
+          "available": true
+        },
+        {
+          "item_id": "N05",
+          "name": "Mushroom Freekeh Risotto",
+          "description": "Wild mushroom risotto finished with toasted freekeh and truffle oil.",
+          "price": 21.00,
+          "allergens": ["dairy"],
+          "dietary": ["vegetarian", "vegan_on_request"],
+          "spice_level": 0,
+          "available": true
+        }
+      ]
+    },
+    {
+      "category_id": "pizza_pasta",
+      "category_name": "Pizza & Pasta",
+      "items": [
+        {
+          "item_id": "P01",
+          "name": "Manakish Margherita",
+          "description": "Wood-fired pizza with za'atar-infused crust, tomato, and mozzarella.",
+          "price": 16.00,
+          "allergens": ["gluten", "dairy"],
+          "dietary": ["vegetarian"],
+          "spice_level": 0,
+          "available": true
+        },
+        {
+          "item_id": "P02",
+          "name": "Sujuk Pepperoni Pizza",
+          "description": "Spiced Lebanese sujuk sausage and pepperoni on a tomato-mozzarella base.",
+          "price": 18.50,
+          "allergens": ["gluten", "dairy"],
+          "dietary": [],
+          "spice_level": 2,
+          "available": true
+        },
+        {
+          "item_id": "P03",
+          "name": "Toum Alfredo Fettuccine",
+          "description": "Fettuccine in a garlic toum-infused alfredo sauce with grilled chicken.",
+          "price": 19.50,
+          "allergens": ["gluten", "dairy"],
+          "dietary": [],
+          "spice_level": 0,
+          "available": true
+        },
+        {
+          "item_id": "P04",
+          "name": "Lentil Ragu Pappardelle",
+          "description": "Hand-cut pappardelle with a Lebanese lentil and tomato ragu.",
+          "price": 17.00,
+          "allergens": ["gluten"],
+          "dietary": ["vegetarian", "vegan"],
+          "spice_level": 1,
+          "available": true
+        }
+      ]
+    },
+    {
+      "category_id": "desserts",
+      "category_name": "Desserts",
+      "items": [
+        {
+          "item_id": "D01",
+          "name": "Knafeh Tiramisu",
+          "description": "Layered tiramisu with crispy knafeh strands and orange blossom syrup.",
+          "price": 9.00,
+          "allergens": ["dairy", "gluten", "eggs"],
+          "dietary": ["vegetarian"],
+          "spice_level": 0,
+          "available": true
+        },
+        {
+          "item_id": "D02",
+          "name": "Pistachio Panna Cotta",
+          "description": "Silky panna cotta with pistachio crumble and rosewater.",
+          "price": 8.50,
+          "allergens": ["dairy", "tree_nuts"],
+          "dietary": ["vegetarian", "gluten_free"],
+          "spice_level": 0,
+          "available": true
+        },
+        {
+          "item_id": "D03",
+          "name": "Maamoul Cannoli",
+          "description": "Date and walnut filled cannoli shells dusted with powdered sugar.",
+          "price": 8.00,
+          "allergens": ["dairy", "gluten", "tree_nuts"],
+          "dietary": ["vegetarian"],
+          "spice_level": 0,
+          "available": true
+        }
+      ]
+    },
+    {
+      "category_id": "beverages",
+      "category_name": "Beverages",
+      "items": [
+        {
+          "item_id": "B01",
+          "name": "Jallab Spritz",
+          "description": "Non-alcoholic Jallab syrup with sparkling water and pine nuts.",
+          "price": 6.00,
+          "allergens": ["tree_nuts"],
+          "dietary": ["vegetarian", "vegan"],
+          "spice_level": 0,
+          "available": true
+        },
+        {
+          "item_id": "B02",
+          "name": "House Red (Lebanese, Bekaa Valley)",
+          "description": "Glass of medium-bodied red wine from the Bekaa Valley.",
+          "price": 12.00,
+          "allergens": [],
+          "dietary": ["vegan"],
+          "spice_level": 0,
+          "available": true
+        },
+        {
+          "item_id": "B03",
+          "name": "Espresso",
+          "description": "Italian-style single espresso shot.",
+          "price": 3.50,
+          "allergens": [],
+          "dietary": ["vegan"],
+          "spice_level": 0,
+          "available": true
+        },
+        {
+          "item_id": "B04",
+          "name": "Limonana",
+          "description": "Frozen mint lemonade.",
+          "price": 5.00,
+          "allergens": [],
+          "dietary": ["vegan", "gluten_free"],
+          "spice_level": 0,
+          "available": true
+        }
+      ]
+    }
+  ]
+}

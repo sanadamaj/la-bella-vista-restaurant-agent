@@ -1,0 +1,75 @@
+{
+  "restaurant_name": "La Bella Vista",
+  "faqs": [
+    {
+      "topic": "hours",
+      "question": "What are your opening hours?",
+      "answer": "We are open daily for lunch from 12:00 to 15:30 and for dinner from 18:00 to 23:00. Last seating is 30 minutes before closing."
+    },
+    {
+      "topic": "location",
+      "question": "Where are you located?",
+      "answer": "La Bella Vista is located on the Jounieh seafront promenade, Mount Lebanon, with valet access from the main road."
+    },
+    {
+      "topic": "parking",
+      "question": "Do you have parking?",
+      "answer": "Complimentary valet parking is available for all dine-in guests. Self-parking is also available in the adjacent public lot."
+    },
+    {
+      "topic": "dress_code",
+      "question": "Is there a dress code?",
+      "answer": "We ask for smart casual attire. Beachwear and flip-flops are not permitted in the indoor dining room, but are fine on the terrace."
+    },
+    {
+      "topic": "payment_methods",
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash (USD and LBP), all major credit cards, and mobile wallet payments. We do not accept personal cheques."
+    },
+    {
+      "topic": "reservation_policy",
+      "question": "What is your reservation policy?",
+      "answer": "Reservations are recommended, especially for parties of 6 or more and for weekend dinner service. Tables are held for 15 minutes past the reservation time before being released."
+    },
+    {
+      "topic": "cancellation_policy",
+      "question": "What is your cancellation policy?",
+      "answer": "Reservations can be cancelled or modified free of charge up to 2 hours before the booking time. Groups of 8 or more require 24 hours' notice to cancel without a fee."
+    },
+    {
+      "topic": "takeout_delivery",
+      "question": "Do you offer takeout or delivery?",
+      "answer": "Takeout orders can be placed by phone for pickup. We currently do not offer in-house delivery, but are available through third-party delivery apps."
+    },
+    {
+      "topic": "private_events",
+      "question": "Can you host private events?",
+      "answer": "Yes, our private room (table 8 or table 12) can be booked for private events of up to 10 guests. Please contact us at least one week in advance."
+    },
+    {
+      "topic": "kids_menu",
+      "question": "Do you have a kids menu?",
+      "answer": "Yes, we offer a simplified kids menu with smaller portions of pasta, pizza, and grilled chicken, available on request."
+    },
+    {
+      "topic": "pets_policy",
+      "question": "Are pets allowed?",
+      "answer": "Well-behaved pets are welcome on the outdoor terrace seating, but are not permitted in the indoor dining room."
+    },
+    {
+      "topic": "wifi",
+      "question": "Is there WiFi?",
+      "answer": "Yes, complimentary WiFi is available throughout the restaurant. The network name and password are printed on the menu."
+    },
+    {
+      "topic": "accessibility",
+      "question": "Is the restaurant wheelchair accessible?",
+      "answer": "Most of the restaurant is wheelchair accessible, including the private room and several standard tables. Tables 4 and 9 have step access only."
+    },
+    {
+      "topic": "languages_spoken",
+      "question": "What languages does the staff speak?",
+      "answer": "Our staff are fluent in Arabic, English, and French."
+    }
+  ]
+}

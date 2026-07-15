@@ -1,0 +1,57 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# La Bella Vista — docker-compose.yml
+# Start: docker compose up --build
+# Stop:  docker compose down          (keeps the database volume)
+# Reset: docker compose down -v       (also removes the database volume)
+# ─────────────────────────────────────────────────────────────────────────────
+
+services:
+  restaurant-agent:
+    build: .
+    image: restaurant-agent:latest
+
+    # Load every variable from .env — the only required one at runtime is
+    # ANTHROPIC_API_KEY.  All others have safe defaults in the Dockerfile.
+    env_file:
+      - .env
+
+    # Explicitly forward just the variables the app reads, so anything
+    # unrelated in the developer's .env doesn't leak into the container.
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - ANTHROPIC_MODEL=${ANTHROPIC_MODEL:-claude-haiku-4-5}
+      - APP_PORT=${APP_PORT:-7860}
+      - DATA_DIR=/app/data
+      - LOG_PATH=/app/logs/agent_trace.jsonl
+
+    ports:
+      - "${APP_PORT:-7860}:${APP_PORT:-7860}"
+
+    volumes:
+      # Named volume: the database persists between container restarts,
+      # which is what makes long-term memory actually work across sessions.
+      # Without this, bookings.db would be recreated from scratch every
+      # time the container stops and starts — fine for the in-conversation
+      # short-term memory, fatal for the long-term preferences bonus feature.
+      - db_data:/app/db
+
+      # Named volume for log files so traces can be inspected on the host
+      # with:  docker compose exec restaurant-agent cat logs/agent_trace.jsonl
+      # or mounted directly:  ./logs:/app/logs (commented out as an alternative)
+      - log_data:/app/logs
+
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:${APP_PORT:-7860}')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+    restart: unless-stopped
+
+volumes:
+  db_data:
+    driver: local
+  log_data:
+    driver: local

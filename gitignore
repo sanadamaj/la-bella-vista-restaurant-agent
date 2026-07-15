@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Generated trace logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Local DB copies
+*.db-journal
+
+# Evaluation results (personal run data)
+evaluation/results.json
+evaluation/metrics.json
+
+# OS junk
+.DS_Store
