@@ -5,15 +5,15 @@ A Dockerized, domain-specific AI agent for a restaurant's customer support and r
 The agent answers grounded questions about the restaurant (menu, hours, policies), and lets customers book, modify, and cancel table reservations through natural conversation — with explicit workflow state, confirmation gates on every state-changing action, and a deterministic fallback when a request is ambiguous or unsupported.
 
 > **Course:** Mini Projet — Dr. Mohamad Aoude, Faculty of Engineering
-> **Video presentation link:** [Link — YouTube/Drive/etc., add before submitting]
+> **Video presentation link:** [ https://youtu.be/cQ-u_QT4oAU ]
 
 ## Team
 
 | Student | Role | Responsibilities |
 |---|---|---|
-| **Mariam Al Hajjar** | Tools Engineer | Typed tools, validation, domain data, database schema |
-| **Fatima El Tahech** | Agent Engineer | Workflow, routing, prompts, stopping rules, fallback logic |
-| **Sana Damaj** | Platform & Interface | Memory/state, web interface, Docker packaging, trace logging, testing |
+| **Mariam Al Hajjar - 6697** | Tools Engineer | Typed tools, validation, domain data, database schema |
+| **Fatima El Tahech - 6637** | Agent Engineer | Workflow, routing, prompts, stopping rules, fallback logic |
+| **Sana Damaj - 6606** | Platform & Interface | Memory/state, web interface, Docker packaging, trace logging, testing |
 
 
 ## Features
